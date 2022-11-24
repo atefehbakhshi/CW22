@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: #444;
+  color: white;
+}
+
+.hero {
+  background-image: url("img/4099260053.jpg");
+  padding-top: 1em;
+}
+.hero .hero1 {
+  background-color: rgba(255, 255, 255, 0.886);
+  text-align: center;
+  margin-top: 2em;
+  padding: 0.3em;
+}
+.hero .search {
+  background-color: rgba(0, 0, 0, 0.514);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1875em;
+}
+.hero .search input {
+  border: none;
+  border-radius: 0.1875em;
+}
+.hero .search input[type=text] {
+  display: none;
+}
+.hero .search input[type=search] {
+  padding: 0.6em;
+}
+.hero .search input[type=submit] {
+  padding: 0.6em;
+  background-color: #ffcd70;
+}
+.hero .hero2 {
+  display: none;
+}
+.hero .hero3 {
+  color: white;
+  background-color: rgba(26, 188, 156, 0.6549019608);
+  text-align: center;
+  padding: 1em;
+}
+
+.addvers {
+  color: #3ab1e4;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+}
+.addvers .addver {
+  padding: 0.5em;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  border-radius: 0.1875em;
+}
+.addvers .addver img {
+  margin-top: 0.5em;
+  width: 3.125em;
+  height: 3.125em;
+}
+
+main {
+  padding: 1em;
+}
+main .hires {
+  margin-bottom: 0.5em;
+  border: 1px solid #c2bfbf;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 0.1875em;
+}
+main .hires h4 {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-bottom: 1px solid #d0d0d0;
+}
+main .hires .hire {
+  margin: 0.5em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d0d0d0;
+}
+main .hires .hire .desc p:nth-child(1) {
+  color: #3ab1e4;
+  margin-bottom: 0.5em;
+}
+main .hires .hire .desc p:nth-child(2) {
+  color: #999;
+}
+main .hires .hire span {
+  color: white;
+  padding: 0.1em;
+  background-color: #d84a3a;
+  align-self: flex-start;
+}
+main .main2 {
+  margin-top: 2em;
+}
+main .main2 h4 {
+  display: inline-block;
+  border: 1px solid #d0d0d0;
+  border-top: 5px solid #3ab1e4;
+  border-bottom: none;
+  padding: 0.7em;
+  border-radius: 0.1875rem;
+  color: #3ab1e4;
+}
+main .main2 .lastJobOffers {
+  font-size: 0.75rem;
+  border: 1px solid #d0d0d0;
+  padding: 0.5em;
+}
+main .main2 .lastJobOffers .lastJobOffer {
+  margin: 0.5em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d0;
+}
+main .main2 .lastJobOffers .lastJobOffer .desc p:nth-child(1) {
+  margin-bottom: 0.5em;
+}
+main .main2 .lastJobOffers .lastJobOffer .desc p:nth-child(2) {
+  color: #999;
+}
+main .main2 .lastJobOffers .lastJobOffer span {
+  padding: 0.1em;
+  color: #999;
+  align-self: flex-end;
+}/*# sourceMappingURL=index.css.map */
