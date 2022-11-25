@@ -13,17 +13,17 @@ header {
 }
 
 .hero {
-  background-image: url("img/4099260053.jpg");
+  background-image: url("../img/4099260053.jpg");
   padding-top: 1em;
 }
 .hero .hero1 {
-  background-color: rgba(255, 255, 255, 0.886);
+  background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
   margin-top: 2em;
   padding: 0.3em;
 }
 .hero .search {
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -141,4 +141,4 @@ main .main2 .lastJobOffers .lastJobOffer span {
   padding: 0.1em;
   color: #999;
   align-self: flex-end;
-}/*# sourceMappingURL=index.css.map */
+}
